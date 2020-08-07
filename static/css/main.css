@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Engagement');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700,100');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500,700');
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700');
+
+body {
+    padding-top: 25px;
+    background-image: url('../images/background.png');
+}
+
+.business-header {
+    height: 200px;
+    background: url('../images/banner.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.main-content {
+    margin-top: 30px;
+}
+
+.navbar {
+    background-color: #ff8c00;
+    min-height: 55px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,1) ;
+}
+
+.menu-title {
+    font-family: 'Engagement', cursive;
+    font-size: 3em;
+    margin-bottom: 25px;
+}
+
+.container-primary {
+    background-color: #fff;
+    padding: 25px;
+}
+
+.entry-title {
+    font-family: 'Engagement', cursive;
+    font-size: 4em !important;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-weight: 400;   
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.desc {
+    border-bottom: 1px solid #85e085;
+    padding-bottom: 10px;
+}
+
+.title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.sub-title {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .alpha60 {
+        /* Fallback for web browsers that don't support RGBa */
+        background-color: rgb(0, 0, 0);
+        /* RGBa with 0.6 opacity */
+        background-color: rgba(0, 0, 0, 0.6);
+        /* For IE 5.5 - 7*/
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+        /* For IE 8*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+    }
+}
+
+.address {
+    color: #fff;
+}
+
+#map {
+    height: 200px;
+    width: 100%;
+}
+
+.sci-social-icons-horizontal li {
+    float: left;
+}
+
+.sci-social-icons li {
+    margin: 0 5px 0 0 !important;
+    list-style-type: none;
+    width: 30px;
+    height: 30px;
+}
+
+a.back-to-top {
+    display: none;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 50px;
+    background: #27AE61 url("../images/up-arrow.png") no-repeat center 43%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .right-sidebar .widget-area .widget {
+        box-shadow: inset 0.53em 0 0 rgba(0, 0, 0, 0.015);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .widget-area .widget {
+        padding: 2.618em 2.244em 2.244em 2.244em;
+    }
+}
+
+.widget-area .widget {
+    padding: 2.618em 1em 1em 1em;
+    position: relative;
+    background: rgba(255, 255, 255, 0.85);
+    font-family: "Kalam";
+}
+
+.widget-area .widget {
+    font-size: .875em;
+}
+
+.widget-area .widget {
+    font-weight: 300;
+}
+
+.widget {
+    margin: 0 0 3.706325903em;
+}
+
+.widget-area .widget:before {
+    content: "";
+    display: block;
+    height: 2.618em;
+    width: 30%;
+    position: absolute;
+    top: -1.309em;
+    left: 35%;
+    background: url(../images/paper.png) rgba(255, 255, 255, 0.3);
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg);
+}
+
+.widget-area .widget:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 100%;
+    height: 7px;
+    background: -webkit-linear-gradient(transparent 0%, transparent 0%), -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.85) 33.33%, transparent 33.33%) 0 0%, transparent -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.85) 33.33%, transparent 33.33%) 0 0%;
+    background-size: 0px 100%, 9px 9px, 9px 9px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.bizoh-table>tbody>tr>td, .bizoh-table>tbody>tr>th, .bizoh-table>thead>tr>td, .bizoh-table>thead>tr>th {
+    border-top: 1px solid #ddd;
+    line-height: 1.5;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.bizoh-table>tbody>tr>td, .bizoh-table>tbody>tr>th, .bizoh-table>thead>tr>td, .bizoh-table>thead>tr>th, .bizoh-table > thead > tr > th, .bizoh-table > tbody > tr > th, .bizoh-table > thead > tr > td, .bizoh-table > tbody > tr > td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table tbody td, fieldset, fieldset legend {
+    background-color: #fafafa !important;
+}
+
+table tbody td {
+    background-color: #625644;
+}
+
+table td, table th {
+    padding: 1em 1.41575em;
+    text-align: left;
+    vertical-align: top;
+}
+
+td, th {
+    padding: 0;
+}
+
+legend, td, th {
+    padding: 0;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.bizoh-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.social-widget {
+    height: 9em;
+}
+
+.container-secondary {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-secondary {
+        margin-top: 0;
+    }
+}

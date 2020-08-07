@@ -1,0 +1,58 @@
+[
+{
+  "model": "portal.schedules",
+  "fields": {
+    "day_week": 0,
+    "from_hour": "19:00:00",
+    "to_hour": "23:30:00"
+  }
+},
+{
+  "model": "portal.schedules",
+  "fields": {
+    "day_week": 1,
+    "from_hour": "19:00:00",
+    "to_hour": "23:00:00"
+  }
+},
+{
+  "model": "portal.schedules",
+  "fields": {
+    "day_week": 2,
+    "from_hour": "19:00:00",
+    "to_hour": "23:00:00"
+  }
+},
+{
+  "model": "portal.schedules",
+  "fields": {
+    "day_week": 3,
+    "from_hour": "19:00:00",
+    "to_hour": "23:00:00"
+  }
+},
+{
+  "model": "portal.schedules",
+  "fields": {
+    "day_week": 4,
+    "from_hour": "19:00:00",
+    "to_hour": "23:00:00"
+  }
+},
+{
+  "model": "portal.schedules",
+  "fields": {
+    "day_week": 5,
+    "from_hour": "19:00:00",
+    "to_hour": "23:30:00"
+  }
+},
+{
+  "model": "portal.schedules",
+  "fields": {
+    "day_week": 6,
+    "from_hour": "19:00:00",
+    "to_hour": "23:30:00"
+  }
+}
+]
